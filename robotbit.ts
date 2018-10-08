@@ -120,7 +120,7 @@ namespace robotbit{
 	 */
     function initRGBLight() {
         if (!lhRGBLight) {
-            lhRGBLight = HandleRGBLight.create(DigitalPin.P16, 1, HandleRGBPixelMode.RGB);
+            lhRGBLight = HandleRGBLight.create(DigitalPin.P16, 6, HandleRGBPixelMode.RGB);
         }
     }
 
