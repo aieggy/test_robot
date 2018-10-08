@@ -1,0 +1,23 @@
+{
+    "name": "robotbit",
+    "version": "1.0.0",
+    "description": "Extension for eggtoy mbit IR receiver module",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "sendbuffer.asm",
+        "HandleRGBLight.ts",
+        "enums.d.ts",
+        "ir.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+		"robotbit.ts",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h",
+		"_locales/zh/robotbit-strings.json"
+    ],
+    "public": true
+}
